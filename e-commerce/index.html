@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce de Livros</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Gothic&family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Livraria Tons de Magia</h1>
+  </header>
+
+  <main>
+    <section id="produtos-lista">
+      <!-- Os cards dos livros aparecerão aqui -->
+    </section>
+
+    <form id="form-adicionar-produto">
+        <input type="text" id="nome" placeholder="Nome do Livro" required />
+        <input type="text" id="autor" placeholder="Autor do Livro" required />
+        <input type="number" id="preco" placeholder="Preço do Livro" required />
+
+        <p>Insira a capa do livro no local abaixo: </p>
+        <input type="file" id="capa" required/>
+
+        <button type="submit">Adicionar Produto</button>
+    </form>
+  
+  <section id="produtos-lista"></section>
+  
+  </main>
+
+  <footer>
+    <p class="agradecimento">Livraria Tons de Magia agradece o seu acesso</p>
+    <p>Desenvolvido por Julia da Silva</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
